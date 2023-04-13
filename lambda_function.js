@@ -4,7 +4,7 @@ exports.handler = async (event) => {
   if (c) {
     const fahrenheit = (c * 1.8) + 32;
     return {
-      statusCode: 201,
+      statusCode: 200,
       body: `${fahrenheit}`
     };
   } else if (f) {
