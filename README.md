@@ -4,7 +4,7 @@
 
 This is a Lambda function built in AWS that converts temperatures between Celsius and Fahrenheit. It exposes an API endpoint that accepts a temperature value and a temperature unit (either Celsius or Fahrenheit), and returns the converted temperature in the other unit.
 
-Usage
+Usage: 
 To use this Lambda function, simply make an HTTP GET request to the following endpoint:
 
 Celsius to Fahrenheit
