@@ -2,11 +2,11 @@
   "name": "tempConvert",
   "version": "1.0.0",
   "description": "My AWS Lambda function",
-  "main": "index.js",
+  "main": "lambda_function.js",
   "dependencies": {
     "aws-sdk": "^2.103.0"
   },
   "scripts": {
-    "deploy": "aws lambda update-function-code --function-name my-function --zip-file fileb://function.zip"
+    "deploy": "aws lambda update-function-code --function-name tempConvert --zip-file fileb://tempConvert.zip"
   }
 }
