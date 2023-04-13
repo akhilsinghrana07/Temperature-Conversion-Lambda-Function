@@ -7,6 +7,6 @@
     "aws-sdk": "^2.103.0"
   },
   "scripts": {
-    "deploy": "aws lambda update-function-code --function-name tempConvert --zip-file fileb://tempConvert.zip"
+    "deploy": "aws lambda update-function-code --function-name tempConvert --zip-file fileb://function.zip"
   }
 }
