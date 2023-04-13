@@ -7,6 +7,6 @@
     "aws-sdk": "^2.103.0"
   },
   "scripts": {
-    "deploy": "npm install && zip -r function.zip . && aws lambda update-function-code --function-name tempConvert --zip-file fileb://function.zip"
+    "deploy": "npm install && zip -r function.zip . -x 'node_modules/*' && aws lambda update-function-code --function-name tempConvert --zip-file fileb://function.zip"
   }
 }
