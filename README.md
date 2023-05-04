@@ -1,6 +1,4 @@
-# COMP306-AkhilSinghRana-Lab4
-
-#Temperature Conversion Lambda Function
+# Temperature Conversion Lambda Function
 
 This is a Lambda function built in AWS that converts temperatures between Celsius and Fahrenheit. It exposes an API endpoint that accepts a temperature value and a temperature unit (either Celsius or Fahrenheit), and returns the converted temperature in the other unit.
 
